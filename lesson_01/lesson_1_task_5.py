@@ -1,11 +1,16 @@
-def print_digit(num):
-    print(num, end='')  # Печатает цифру без переноса строки
+def print_letter(let):
+    print(let, end='')
 
 
-# Номер, который мы хотим вывести
-phone_number = "88005553535"
+print_letter('8')
+print_letter('8')
+print_letter('0')
+print_letter('0')
+print_letter('5')
+print_letter('5')
+print_letter('5')
+print_letter('3')
+print_letter('5')
+print_letter('3')
+print_letter('5')
 
-
-# Вызов функции 11 раз для каждой цифры номера
-for digit in phone_number:
-    print_digit(digit)
