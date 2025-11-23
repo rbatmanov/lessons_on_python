@@ -89,7 +89,7 @@ def test_form_submission():
         zip_field = WebDriverWait(driver, 10).until(
             EC.visibility_of_element_located((By.NAME, "zip-code"))
         )
-        assert "red" in zip_code_field.get_attribute("style"), "Zip code field should be highlighted in red."
+        assert "red" in zip_field.get_attribute("style"), "Zip code field should be highlighted in red."
         
         # Проверяем остальные поля на наличие зеленой подсветки
         fields_to_check = ["first-name", "last-name", "address", "e-mail", "phone", "city", "country", "job-position", "company"]
