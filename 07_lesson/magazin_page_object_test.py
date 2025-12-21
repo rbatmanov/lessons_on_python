@@ -70,7 +70,7 @@ class CheckoutPage:
 # Тестовый сценарий
 def test_shopping_cart():
     # Установка драйвера для Firefox
-    driver = webdriver.Firefox()  # Убедитесь, что geckodriver установлен и доступен в PATH.
+    driver = webdriver.Firefox() 
 
     try:
         # Открываем сайт магазина
